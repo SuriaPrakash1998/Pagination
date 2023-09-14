@@ -46,6 +46,7 @@ nextElement.addEventListener('click',nextButton)
 
 
 function nextButton(){
+ if(fifth<99){
   first = first+5;
   second = second+5;
   third = third+5
@@ -56,7 +57,9 @@ function nextButton(){
   thirdElement.innerHTML = `<a class="page-link">${third}</a>`
   fourthElement.innerHTML = `<a class="page-link">${fourth}</a>`
   fifthElement.innerHTML = `<a class="page-link">${fifth}</a>`
+ }else return
 }
+
 function previousButton(){
   if(first===1) return;
   else{
