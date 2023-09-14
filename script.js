@@ -57,6 +57,11 @@ function nextButton(){
   thirdElement.innerHTML = `<a class="page-link">${third}</a>`
   fourthElement.innerHTML = `<a class="page-link">${fourth}</a>`
   fifthElement.innerHTML = `<a class="page-link">${fifth}</a>`
+  firstElement.setAttribute('class','page-item ')
+  secondElement.setAttribute('class','page-item ')
+  thirdElement.setAttribute('class','page-item ')
+  fourthElement.setAttribute('class','page-item ')
+  fifthElement.setAttribute('class','page-item ')
  }else return
 }
 
@@ -73,6 +78,11 @@ function previousButton(){
   thirdElement.innerHTML = `<a class="page-link">${third}</a>`
   fourthElement.innerHTML = `<a class="page-link">${fourth}</a>`
   fifthElement.innerHTML = `<a class="page-link">${fifth}</a>`
+  firstElement.setAttribute('class','page-item ')
+  secondElement.setAttribute('class','page-item ')
+  thirdElement.setAttribute('class','page-item ')
+  fourthElement.setAttribute('class','page-item ')
+  fifthElement.setAttribute('class','page-item ')
   }
 }
 
